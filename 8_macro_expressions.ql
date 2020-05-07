@@ -2,4 +2,4 @@ import cpp
 
 from MacroInvocation mc
 where mc.getMacroName().regexpMatch("ntoh.*")
-select mc, mc.getExpr(), "ntoh* invocation expression"
+select mc.getExpr(), "ntoh* invocation expression"
